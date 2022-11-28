@@ -1,5 +1,6 @@
 ﻿// Operators Exercise by Nick Carlson
-// Simple Program to write Results
+// Exercise 1 Part 1: 
+// Simple Program to Write Results
 
 using Operators_Exercise;
 
@@ -15,6 +16,7 @@ int mod = MathOps.Modulus(7, 7);
 Console.WriteLine($"7 + 7 when added gives you the sum of {add}; when subtracted {sub}; when multiplyed {mul}; when divided {div}; and finally with a modulus {mod}!");
 Console.WriteLine();
 
+//Exercise 1 Part 2:
 // Declaring Integers
 Console.WriteLine("Declairng Integers Exercise 1");
 Console.WriteLine("");
@@ -27,7 +29,14 @@ int remainder = a % b;
 
 if (a == 17 && b == 4)
     Console.WriteLine($"{a} divided by {b} is {quotient} with a remainder of {remainder}!");
-else
-    Console.WriteLine("Not the right values for the operations.");
+    Console.WriteLine();
 
+//Exercise 2
+
+Console.WriteLine("Please enter a Radius for a Cirlce ");
+
+var radius = double.Parse(Console.ReadLine());
+
+var answer = Circle.AreaOfCircle(radius);
+Console.WriteLine(answer);
 

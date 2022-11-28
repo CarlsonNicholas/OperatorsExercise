@@ -24,9 +24,12 @@ namespace Operators_Exercise
         { return num1 % num2; }
     }
 
-    internal class AreaOfCircle
+    internal class Circle
     {
-       
+       public static double AreaOfCircle(double radius)
+        {
+           return Math.PI * Math.Pow(radius, 2);
+        }
 
             
     }
